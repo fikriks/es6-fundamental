@@ -1,3 +1,7 @@
+/*
+    Inheritance
+*/
+
 class Siswa
 {
     constructor(username, password, nama_kelas){
@@ -24,4 +28,4 @@ class Langganan extends Siswa
 }
 
 let tambahLangganan = new Langganan("fikriks", "Premium");
-tambahLangganan.gabung();
+tambahLangganan.gabungPaket();
